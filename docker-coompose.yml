@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  app:
+    build: ./frontend
+    container_name: app
+    
+  backend:
+    build: ./backend
+    container_name: backend
